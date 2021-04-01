@@ -10,7 +10,7 @@ import (
 var n = flag.Bool("n", false, "omit trailing newline") //指针
 
 // -s sep 用于指定分隔符 默认为空格
-var sep = flag.String("s", " ", "separator")  //指针
+var sep = flag.String("s", " ", "separator") //指针
 
 // 使用示例
 // go build后
